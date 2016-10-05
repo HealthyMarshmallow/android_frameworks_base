@@ -255,12 +255,12 @@ public class KeyguardIndicationController {
 
         int chargingId;
         switch (mChargingSpeed) {
-            case KeyguardUpdateMonitor.BatteryStatus.CHARGING_FAST:
+            case -123:
                 chargingId = hasChargingTime
                         ? R.string.keyguard_indication_charging_time_fast
                         : R.string.keyguard_plugged_in_charging_fast;
                 break;
-            case KeyguardUpdateMonitor.BatteryStatus.CHARGING_SLOWLY:
+            case -321:
                 chargingId = hasChargingTime
                         ? R.string.keyguard_indication_charging_time_slowly
                         : R.string.keyguard_plugged_in_charging_slowly;
