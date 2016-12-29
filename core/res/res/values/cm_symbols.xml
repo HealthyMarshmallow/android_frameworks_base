@@ -104,9 +104,6 @@
     <!-- Automatic brightness enhancements -->
     <java-symbol type="integer" name="config_autoBrightnessBrighteningLightFastDebounce"/>
 
-    <!-- Automatic brightness enhancements -->
-    <java-symbol type="integer" name="config_autoBrightnessBrighteningLightFastDebounce"/>
-
 
     <java-symbol type="string" name="high_definition_tag" />
 
